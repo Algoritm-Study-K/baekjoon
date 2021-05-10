@@ -29,7 +29,7 @@ local repository에 name(본인의 이름) 브랜치 생성<br>
 1. <code> **git checkout name** </code> - main에서 name 브랜치로 전환 (name : 본인의 이름)
 2. workspace에서 작업
 3. <code> **git commit -add .**</code> - 작업한 내용 스테이지에 추가
-4. <code> **git commit -m "message"**</code> - 작업한 내용 커밋 (message 예시 : "1000_yonghee")
+4. <code> **git commit -m "message"**</code> - 작업한 내용 커밋<br> (message 예시 : "1000_yonghee" or "1주차_yonghee" or "1주차_1단계_yonghee" 등)
 5. <code> **git push origin name** </code> - 원격저장소에 name 브랜치에 반영 
 6. <code> **git checkout main** </code> - main 브랜치로 브랜치 전환
 7. <code> **git pull** </code> - 원격저장소 main의 최신 정보를 로컬에 업데이트 시키기
